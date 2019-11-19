@@ -5,8 +5,8 @@ public class ReturnMax {
 
     /*this function returns the largest element in an array given an array and a starting and end point
 
-        The find max int function uses recursion to devide the array into sub arrays
-        the array is devided up into arrays of length less than 3
+        The find max int function uses recursion to divide the array into sub arrays
+        the array is divided up into arrays of length less than 3
         once arrays are devided up then the checks return either a compared max value or a single integer
         the math.max then compares the largest of each sub array
 
