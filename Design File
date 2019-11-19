@@ -1,0 +1,14 @@
+
+In order to create a function that finds the largest number in two arrays
+I had to create a function that find the largest element in one array
+I did this implementing the devide and conquer method
+The implementation is as Follows
+
+        The find max int function uses recursion to devide the array into sub arrays
+        the array is devided up into arrays of length less than 3
+        once arrays are devided up then the checks return either a compared max value or a single integer
+        the math.max then compares the largest of each sub array
+
+Once I completed the function for finding a max in in one array
+I then created a function that takes in two arrays and calls the devided and conquer maxInt function on each
+The results of both are then compared and the largest n'th element is printed
